@@ -2,12 +2,17 @@
 
 high resolution clock based on C++11 chrono library
 
-usage:
+.h
 
 ```
 ofxTimePoint pt;
 double timePoint;
 
+```
+
+.cpp
+
+```
 pt.startPoint(NANO);
 // monitored process
 ...
